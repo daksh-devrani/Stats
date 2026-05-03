@@ -1,10 +1,16 @@
-## What to add
-  1. add the folder with file like
-    ```
-      ./archive/fraud_features_enriched.csv
+## What to Add
 
-  2. use Python 3.11 if you have 
-  3. To run the Pipeline just run
-    ```bash
-      bash pipelineRunner.sh
-  
+1. Add the folder with the file:
+
+   ```
+   ./archive/fraud_features_enriched.csv
+   ```
+
+2. Use Python 3.11 (if available).
+
+3. To run the pipeline, execute:
+
+   ```
+   bash pipelineRunner.sh
+   ```
+
