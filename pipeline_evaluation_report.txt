@@ -1,0 +1,29 @@
+FRAUD DETECTION PIPELINE EVALUATION REPORT
+==========================================
+Dataset: archive (3)/fraudTrain.csv
+Total Transactions: 1,296,675
+Fraud Prevalence: 0.5789%
+
+METRICS
+-------
+Precision: 0.9779
+Recall   : 0.9479
+F1 Score : 0.9627
+AUC-ROC  : 0.9996
+Avg Prec : 0.9830
+
+CONFUSION MATRIX
+----------------
+TP: 7,115 | FP: 161
+FN: 391 | TN: 1,289,008
+
+CLASSIFICATION REPORT
+---------------------
+              precision    recall  f1-score   support
+
+       Legit       1.00      1.00      1.00   1289169
+       Fraud       0.98      0.95      0.96      7506
+
+    accuracy                           1.00   1296675
+   macro avg       0.99      0.97      0.98   1296675
+weighted avg       1.00      1.00      1.00   1296675
